@@ -29,7 +29,7 @@ public class MyMatcherTest {
 		//as converting a string to an array of chars
 		char[] otherVal = "bc".toCharArray();//the same as = {'b', 'c'}
 		
-		boolean ret = MyMatcher.regionMatches(false, thisVal, 1, otherVal, 0, 2);
+		boolean ret = MyMatcher.regionMatches(true, thisVal, 1, otherVal, 0, 2);
 		assertTrue(ret);
 		
 	}
